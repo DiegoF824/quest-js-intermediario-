@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilo.css" />
+
+    <title>Quest JS Intermediário</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="caixa-texto">
+        <h1 class="titulo">
+          Ficou com dúvida? <br />
+          Nos mande uma mensagem!
+        </h1>
+
+        <p class="texto">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="formulario">
+        <div class="area-input">
+          <input
+            type="text"
+            name="nome"
+            placeholder="Nome completo *"
+            class="input campo-formulario"
+          />
+          <span class="alerta">campo obrigatório</span>
+        </div>
+
+        <div class="area-input">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email *"
+            class="input campo-formulario"
+          />
+          <span class="alerta">campo obrigatório</span>
+        </div>
+
+        <div class="area-input">
+          <input
+            type="text"
+            name="telefone"
+            placeholder="Telefone *"
+            class="input campo-formulario"
+          />
+          <span class="alerta">campo obrigatório</span>
+        </div>
+
+        <div class="area-input">
+          <textarea
+            name="mensagem"
+            id="duvida"
+            class="duvida campo-formulario"
+            cols="35"
+            rows="5"
+            placeholder="Mensagem *"
+          ></textarea>
+          <span class="alerta">campo obrigatório</span>
+        </div>
+
+        <p class="aviso">* campos obrigatórios</p>
+
+        <a href="#" class="enviar" id="enviar">Enviar</a>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="src/javascript/index.js"></script>
+  </body>
+</html>
